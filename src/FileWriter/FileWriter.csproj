@@ -4,17 +4,16 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <Version>1.0.0</Version>
-    <Authors>Your Name or Organization</Authors>
-    <Company>Your Company (Optional)</Company>
-    <Product>Your Product Name (Optional)</Product>
-    <Description>A concise description of your package.</Description>
-    <Copyright>Copyright © Your Name/Organization YYYY</Copyright>
+    <Version>1.1.0</Version>
+    <Authors>Sean Rafferty</Authors>
+    <Company>Xodnar(Optional)</Company>
+    <Product>Simple CSV file writer</Product>
+    <Description>Dedicated csv file writing logic implementation</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression> 
-    <PackageProjectUrl>https://github.com/your-repo/your-project</PackageProjectUrl> 
+    <PackageProjectUrl>https://github.com/seanr89/CreatePackage</PackageProjectUrl> 
     <!-- <PackageIcon>images/icon.png</PackageIcon>  -->
     <PackageTags>tag1;tag2;useful;keywords</PackageTags> 
-    <RepositoryUrl>https://github.com/your-repo/your-project.git</RepositoryUrl> 
+    <RepositoryUrl>https://github.com/seanr89/createproject.git</RepositoryUrl> 
     <RepositoryType>git</RepositoryType>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild> 
   </PropertyGroup>
