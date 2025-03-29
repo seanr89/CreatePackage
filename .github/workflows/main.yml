@@ -35,6 +35,10 @@ jobs:
     - name: Pack NuGet package
       run: dotnet pack --configuration Release --output .
 
+    - name: List files before push
+      if: startsWith(github.ref, 'refs/tags/v')
+      run: ls -l *.nupkg
+
     - name: Push to GitHub Packages
       ##if: startsWith(github.ref, 'refs/tags/v') # Only run on tagged commits
       env:
