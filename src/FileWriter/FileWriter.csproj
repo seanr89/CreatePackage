@@ -15,12 +15,14 @@
     <PackageTags>tag1;tag2;useful;keywords</PackageTags> 
     <RepositoryUrl>https://github.com/seanr89/createproject.git</RepositoryUrl> 
     <RepositoryType>git</RepositoryType>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild> 
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageReadmeFile>readme.md</PackageReadmeFile>
   </PropertyGroup>
 
   <ItemGroup>
     <None Include="README.md" Pack="true" PackagePath="\" />
     <None Include="images\icon.png" Pack="true" PackagePath="\" />
+    <None Include="docs\readme.md" Pack="true" PackagePath="\"/>
   </ItemGroup>
 
   <ItemGroup>

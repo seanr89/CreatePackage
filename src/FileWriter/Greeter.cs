@@ -9,10 +9,10 @@ public class Greeter
     /// Returns a standard "Hello, World!" greeting.
     /// </summary>
     /// <returns>The greeting string.</returns>
-    public static string Greet()
-    {
-        return "Hello, World!";
-    }
+    // public static string Greet()
+    // {
+    //     return "Hello, World!";
+    // }
 
     /// <summary>
     /// Returns a personalized greeting.
