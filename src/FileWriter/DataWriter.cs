@@ -6,6 +6,7 @@ using CsvHelper.TypeConversion;
 
 public class DataWriter
 {
+    // Expected delimiter is "|" by default.
     private string _Delimiter { get; set; } = "|";
     private TypeConverterOptions _Options { get; set; } = new TypeConverterOptions();
 
