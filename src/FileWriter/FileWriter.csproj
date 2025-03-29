@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
     <Version>1.1.0</Version>
     <Authors>Sean Rafferty</Authors>
-    <Company>Xodnar(Optional)</Company>
+    <Company>Xodnar</Company>
     <Product>Simple CSV file writer</Product>
     <Description>Dedicated csv file writing logic implementation</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression> 
@@ -16,7 +16,7 @@
     <RepositoryUrl>https://github.com/seanr89/createproject.git</RepositoryUrl> 
     <RepositoryType>git</RepositoryType>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageReadmeFile>readme.md</PackageReadmeFile>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
   <ItemGroup>

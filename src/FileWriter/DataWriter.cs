@@ -15,8 +15,9 @@ public class DataWriter
         _Delimiter = delimiter;
         _Options = options;
     }
+
     /// <summary>
-    /// Try to write to a file, if the file exists, append to it.
+    /// Write or append to a file with provided data.
     /// If the file does not exist, create it and write to it.
     /// </summary>
     /// <param name="data"></param>
