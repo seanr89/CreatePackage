@@ -8,6 +8,14 @@ on:
   pull_request:
     branches: [ main ]
 
+#The permissions: section defines the permissions granted to the GITHUB_TOKEN for this workflow or job.
+#packages: write explicitly allows the GITHUB_TOKEN to write (upload) packages to the GitHub Packages registry associated with your repository.
+#contents: read is typically needed for the actions/checkout step to access your repository's code.
+permissions:
+  packages: write
+  contents: read # This is usually a good idea to keep for checkout
+
+
 jobs:
   build:
     name: Build and Package
