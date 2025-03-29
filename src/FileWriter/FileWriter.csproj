@@ -23,4 +23,8 @@
     <None Include="README.md" Pack="true" PackagePath="\" />
     <None Include="images\icon.png" Pack="true" PackagePath="\" />
   </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CsvHelper" Version="33.0.1" />
+  </ItemGroup>
 </Project>
