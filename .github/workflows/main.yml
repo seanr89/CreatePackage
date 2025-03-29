@@ -27,8 +27,8 @@ jobs:
 
     steps:
 
-    - name: Echo GitHub Ref
-      run: echo "The GitHub Ref is" ${{ github.ref }}
+    # - name: Echo GitHub Ref
+    #   run: echo "The GitHub Ref is" ${{ github.ref }}
 
     - name: Checkout code
       uses: actions/checkout@v4
